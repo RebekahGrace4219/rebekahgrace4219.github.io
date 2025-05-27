@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creators' Financials</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: #1a1a1a;
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.75rem 1.5rem;
+            background: #00c896;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        section {
+            padding: 3rem 1rem;
+            max-width: 960px;
+            margin: auto;
+        }
+        .features, .pricing {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: space-between;
+        }
+        .feature, .pricing-plan {
+            flex: 1 1 280px;
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        .feature h3, .pricing-plan h3 {
+            margin-top: 0;
+            color: #00c896;
+        }
+        .footer {
+            background: #1a1a1a;
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        input, textarea {
+            padding: 0.75rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+        button {
+            padding: 0.75rem;
+            border: none;
+            background: #00c896;
+            color: white;
+            font-weight: 600;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Creators' Financials</h1>
+    <p>Your All-in-One Personal Finance Dashboard</p>
+    <a href="#pricing" class="cta-button">Get Started</a>
+</header>
+
+<section id="features">
+    <h2>Features</h2>
+    <div class="features">
+        <div class="feature">
+            <h3>Income Tracking</h3>
+            <p>Easily monitor your income streams in one place.</p>
+        </div>
+        <div class="feature">
+            <h3>Expense Insights</h3>
+            <p>Understand where your money goes with detailed analytics.</p>
+        </div>
+        <div class="feature">
+            <h3>Goal Setting</h3>
+            <p>Set and track financial goals with visual progress bars.</p>
+        </div>
+    </div>
+</section>
+
+<section id="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing">
+        <div class="pricing-plan">
+            <h3>Starter</h3>
+            <p>$9/month</p>
+            <ul>
+                <li>Basic Dashboard</li>
+                <li>Email Support</li>
+                <li>1 Financial Goal</li>
+            </ul>
+        </div>
+        <div class="pricing-plan">
+            <h3>Pro</h3>
+            <p>$19/month</p>
+            <ul>
+                <li>Full Dashboard Access</li>
+                <li>Priority Support</li>
+                <li>Unlimited Goals</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Reach out and we’ll get back to you.</p>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2025 Creators' Financials. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
